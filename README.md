@@ -1,6 +1,8 @@
 # draw_cnv_map
 A Perl script to draw a map of copy number variation (CNV) regions
 
+Look over the annotation in the script to find any modification to be needed for your data.
+
 # Usage
 Three arguments needed:  
 &nbsp;&nbsp;	Tab-separated input file containing two columns (chromosome, length),  
