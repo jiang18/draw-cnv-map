@@ -42,7 +42,7 @@ my $EndPtY=$StartPtY+$NumChr*$HeightPixelPerChr;
 $img->lineTo($StartPtX,$EndPtY);
 
 open (FH,$chr_file) or die "Cannot open $chr_file: $!\n";
-$_=<IN>;
+$_=<FH>;
 my @chr_len;
 while(<FH>)
 {
@@ -52,7 +52,7 @@ while(<FH>)
 close FH;
 
 open (FH,$cnv_file) or die "Cannot open $cnv_file: $!\n";
-$_=<IN>;
+$_=<FH>;
 my %chr_cnvr;
 while(<FH>)
 {
