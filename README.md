@@ -9,7 +9,9 @@ Three arguments needed:
 &nbsp;&nbsp;	Tab-separated input file containing four columns (CNV chromosome, start, end, type [gain|loss|both]),  
 &nbsp;&nbsp;	Output file in JPG format.  
 Example:  
-&nbsp;&nbsp;	perl draw_cnv_map.pl pig.genome.txt cnv.txt cnv_map.jpg  
+```
+perl draw_cnv_map.pl pig.genome.txt cnv.txt cnv_map.jpg
+```
 
 ## Contact
 Jicai Jiang (jicai.jiang AT gmail DOT com)
